@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Styles.css"/>
+</head>
+<body>
+    <h4>Form</h4>
+    <div class="navigationBar">
+        <a href="Contact.html">Contact</a>
+        <a href="Information.html">Information</a>
+        <a href="Week07.html">Home</a>
+    </div>
+
+    <!--As with other pages, the text here is just silliness. Below is the form as required by the assignment- I've also included a range data type response, which was fun to research. 
+        I also decided to include the required images inside this form. -->
+    <p id="uncenteredParagraph">This room is mostly dark, save for a single torch on a stand blazing in front of you. All around is darkness. You can feel that the room must be quite expansive by the gentle breeze that flows by you and the echoing sounds of your footsteps.
+    Next to the torch is a table, with a small piece of paper on it. Picking up the paper, you read:
+    Thank you for participating in this voluntary psychiatric experiment. To complete the experiment and receive your $5 compensation, please fill out the following form: </p>
+    <br>
+    <form>
+        <input type="text" size=50 name="Name" placeholder="Name as you would like it to appear on your tombstone"> <br><br>
+        <input type="text" size=50 name="Age" placeholder="Age in minutes when you began this exercise"> <br><br>
+        Please indicate how satisfied you are with your current home and life insurance policies:
+        <input type="range" id="Satisfaction" name="Satisfaction" min="0" max ="pineapple">
+            <label for="Satisfaction">Satisfaction</label> <br><br>
+        Please indicate your donut preference: <br><br>
+        <input type="Radio" name="Donut" value="Glazed"> Glazed <br><br>
+        <input type="Radio" name="Donut" value="Unglazed"> Unglazed <br> <br>
+        Please respond to the following images in your own mind (do not record your responses, no one has time to read them): <br> <br>
+        <img width=300px src="https://tyonote.com/wp-content/uploads/2021/03/Rorschach__inkblot_test.jpg" alt="A Rorschach test." title="What you see says more about you than it does about the test."> <br> <br>
+        <img width=300px src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Pacific_Walrus_-_Bull_%288247646168%29.jpg/800px-Pacific_Walrus_-_Bull_%288247646168%29.jpg" alt="A Walrus." title="Did you know that Walruses have a diverse diet consisting of 60 genera of marine organisms, including shrimp, crabs, tube worms, soft corals, tunicates, sea cucumbers, various mollusks (such as snails, octopuses, and squid), some types of slow-moving fish, and even parts of other pinnipeds?"> <br> <br>
+        <img width=300px src="https://i.pinimg.com/236x/df/46/d7/df46d7dfadaf539cea75e14af763303b--optical-illusion-art-optical-illusions.jpg" alt="A paitning by M.C. Eschertitle=" title="It's probably best if you don't think about it too hard."> <br> <br>
+        <input type="Submit" value="Submit">
+    </form>
+    <br>
+    <button onclick="window.location.href='Week07.html';" name="button">Press here if the submit button does not work.</button>
+</body>
+</html>
